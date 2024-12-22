@@ -13,7 +13,7 @@ Parsing"
 ```bibtex
 @misc{shayegh2024errordiversitymatterserrorresistant,
       title={Error Diversity Matters: An Error-Resistant Ensemble Method for Unsupervised Dependency Parsing}, 
-      author={Behzad Shayegh and Hobie H. -B. Lee and Xiaodan Zhu and Jackie Chi Kit Cheung and Lili Mou},
+      author={Behzad Shayegh and Hobie H.-B. Lee and Xiaodan Zhu and Jackie Chi Kit Cheung and Lili Mou},
       year={2024},
       eprint={2412.11543},
       archivePrefix={arXiv},
