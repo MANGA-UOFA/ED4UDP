@@ -83,6 +83,6 @@ def figure_4():
     plt.ylim(y_low, y_max)
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
-    plt.savefig('plots/recalls.pdf', bbox_inches='tight')
+    plt.savefig('plots/recalls.png', bbox_inches='tight')
 
 figure_4()

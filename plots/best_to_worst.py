@@ -46,4 +46,4 @@ for i, (label, a, ba) in enumerate(zip(labels, aligns, base_aligns)):
     base_x = indmeans[i]-indstds[i]-1 if ba=='top' else indmeans[i]+indstds[i]+1
     base_ax.text(i, base_x, label, ha='center', va=ba, color='black', fontsize=16, rotation=90)
 
-plt.savefig('plots/best_to_worst.pdf', bbox_inches='tight')
+plt.savefig('plots/best_to_worst.png', bbox_inches='tight')
