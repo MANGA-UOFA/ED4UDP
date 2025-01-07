@@ -1,0 +1,40 @@
+INDIVIDUALS = [
+    [
+    "individuals/NDMV/2/{}.out",
+    "individuals/NEDMV/6/{}.out",
+    "individuals/SibNDMV/1/{}.txt",
+    "individuals/LNDMV/1/{}.txt",
+    "individuals/CRFAE/1/{}.txt",
+    "individuals/SibLNDMV/1/{}.out",
+    ],[
+    "individuals/NDMV/3/{}.out",
+    "individuals/NEDMV/8/{}.out",
+    "individuals/SibNDMV/2/{}.txt",
+    "individuals/LNDMV/2/{}.txt",
+    "individuals/CRFAE/3/{}.txt",
+    "individuals/SibLNDMV/2/{}.out",
+    ],[
+    "individuals/NDMV/7/{}.out",
+    "individuals/NEDMV/11/{}.out",
+    "individuals/SibNDMV/3/{}.txt",
+    "individuals/LNDMV/3/{}.txt",
+    "individuals/CRFAE/6/{}.txt",
+    "individuals/SibLNDMV/3/{}.out",
+    ],[
+    "individuals/NDMV/16/{}.out",
+    "individuals/NEDMV/13/{}.out",
+    "individuals/SibNDMV/4/{}.txt",
+    "individuals/LNDMV/4/{}.txt",
+    "individuals/CRFAE/9/{}.txt",
+    "individuals/SibLNDMV/4/{}.out",
+    ],
+    [
+    "individuals/NDMV/20/{}.out",
+    "individuals/NEDMV/15/{}.out",
+    "individuals/SibNDMV/5/{}.txt",
+    "individuals/LNDMV/5/{}.txt",
+    "individuals/CRFAE/13/{}.txt",
+    "individuals/SibLNDMV/5/{}.out",
+    ]
+]
+GOLD = "individuals/Gold/{}.txt"
