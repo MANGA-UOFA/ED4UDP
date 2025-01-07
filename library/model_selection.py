@@ -15,7 +15,7 @@ TUNABLE_METHODS = [
     'society entropy',
 ]
 NONFORWARD_METHODS = ['topk']+TUNABLE_METHODS
-FORWARD_METHODS = ['forward '+tm for tm in TUNABLE_METHODS]+['forward selection']
+FORWARD_METHODS = ['forward '+tm for tm in TUNABLE_METHODS]+['ensemble validation']
 ALL_METHODS = FORWARD_METHODS+NONFORWARD_METHODS
 
 
@@ -128,7 +128,7 @@ def find_best_combination(
         _, best_indexes = torch.topk(individuals_UAS, k)
         return best_indexes.tolist()
     
-    if method=='forward selection':
+    if method=='ensemble validation':
         k_1_selection = list(k_1_selection)
         best_i, best_UAS = -1, -1
         for i in tqdm(range(len(preds))):
