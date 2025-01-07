@@ -6,7 +6,6 @@ from references import INDIVIDUALS, GOLD
 FOLD = 'te'
 AGG = 'acc'
 USE_DEV_WEIGHTS = False
-WRITE = False
 
 teachers_paths = [[tps[5], tps[2], tps[3], tps[4], tps[1], tps[0]] for tps in INDIVIDUALS] #Sorted
 output_path = "outputs/"+FOLD+"_{}.txt"
